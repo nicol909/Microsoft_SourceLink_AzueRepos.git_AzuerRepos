@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft_SourceLink_AzueRepos.git_AzuerRepos", "Microsoft_SourceLink_AzueRepos.git_AzuerRepos\Microsoft_SourceLink_AzueRepos.git_AzuerRepos.csproj", "{F122AD9F-EA5C-4044-A39E-4C72F4C3FFA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F122AD9F-EA5C-4044-A39E-4C72F4C3FFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F122AD9F-EA5C-4044-A39E-4C72F4C3FFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F122AD9F-EA5C-4044-A39E-4C72F4C3FFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F122AD9F-EA5C-4044-A39E-4C72F4C3FFA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F4C45CD-DB70-41B8-8672-FB740706ED2D}
+	EndGlobalSection
+EndGlobal
