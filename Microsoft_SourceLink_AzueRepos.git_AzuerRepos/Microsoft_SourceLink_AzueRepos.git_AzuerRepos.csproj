@@ -62,24 +62,6 @@
       <Lcid>0</Lcid>
       <Isolated>false</Isolated>
     </COMReference>
-    <COMReference Include="{d1fbd7eb-8e86-42f8-a9e5-d55105212a90}">
-      <Guid>d1fbd7eb-8e86-42f8-a9e5-d55105212a90</Guid>
-      <VersionMajor>16</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <WrapperTool>tlbimp</WrapperTool>
-    </COMReference>
-    <COMReference Include="{d3295d87-d604-11d4-a704-00c04fa137e4}">
-      <Guid>d3295d87-d604-11d4-a704-00c04fa137e4</Guid>
-      <VersionMajor>10</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <WrapperTool>tlbimp</WrapperTool>
-    </COMReference>
-    <COMReference Include="{f1e41b5f-8f5b-4617-acd5-40d2775aa78b}">
-      <Guid>f1e41b5f-8f5b-4617-acd5-40d2775aa78b</Guid>
-      <VersionMajor>15</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <WrapperTool>tlbimp</WrapperTool>
-    </COMReference>
   </ItemGroup>
 
   <ItemGroup>
@@ -140,7 +122,6 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating" Version="3.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc" Version="3.1.0" />
     <PackageReference Include="Microsoft.Web.WebJobs.Publish" Version="2.0.0" />
-    <PackageReference Include="Microsoft.WindowsAzure.Caching" Version="2.9.5" />
     <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="4.7.0" />
     <PackageReference Include="System.Diagnostics.TraceSource" Version="4.3.0" />
     <PackageReference Include="YamlDotNet" Version="8.0.0" />
