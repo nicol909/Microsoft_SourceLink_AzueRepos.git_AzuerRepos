@@ -7,6 +7,6 @@ namespace Microsoft_SourceLink_AzueRepos.git_AzuerRepos
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-        }
+            Console.ReadLine();
     }
 }

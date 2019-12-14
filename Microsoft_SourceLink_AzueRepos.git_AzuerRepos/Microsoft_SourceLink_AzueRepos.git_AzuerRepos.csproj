@@ -5,4 +5,145 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <COMReference Include="QuartzTypeLib.dll">
+      <Guid>56a868b0-0ad4-11ce-b03a-0020af0ba770</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="Accessibility.dll">
+      <Guid>1ea4dbf0-3c3b-11cf-810c-00aa00389b71</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="TTSEngineLib.dll">
+      <Guid>5f7209db-16c5-45ae-a67d-60b8585100ca</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="VSLangProj.dll">
+      <Guid>49a1950e-3e35-4595-8cb9-920c64c44d67</Guid>
+      <VersionMajor>7</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.VisualWebDeveloper.WebDeveloperPage.dll">
+      <Guid>6978210a-2240-4706-b0e7-7207dbbbd1de</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="MSXML2.dll">
+      <Guid>f5078f18-c551-11d3-89b9-0000f81fe221</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="IISVersionManagerLibrary.dll">
+      <Guid>736bfa21-b74f-439d-a701-1173f72771f7</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="{d1fbd7eb-8e86-42f8-a9e5-d55105212a90}">
+      <Guid>d1fbd7eb-8e86-42f8-a9e5-d55105212a90</Guid>
+      <VersionMajor>16</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{d3295d87-d604-11d4-a704-00c04fa137e4}">
+      <Guid>d3295d87-d604-11d4-a704-00c04fa137e4</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{f1e41b5f-8f5b-4617-acd5-40d2775aa78b}">
+      <Guid>f1e41b5f-8f5b-4617-acd5-40d2775aa78b</Guid>
+      <VersionMajor>15</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.DiagnosticSourceListener" Version="2.12.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.EventSourceListener" Version="2.12.0" />
+    <PackageReference Include="Microsoft.AspNetCore.AzureAppServicesIntegration" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Azure.EventHubs" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Azure.Search" Version="10.1.0" />
+    <PackageReference Include="Microsoft.Azure.StreamAnalytics.CICD" Version="2.3.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.14" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Core" Version="3.0.14" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Host.Storage" Version="3.0.14" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Script.ExtensionsMetadataGenerator" Version="1.1.3" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.EventSource" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Rest.ClientRuntime.Azure" Version="3.3.19" />
+    <PackageReference Include="Microsoft.SourceLink.AzureDevOpsServer.Git" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.SourceLink.AzureRepos.Git" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.SourceLink.Common" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.TeamFoundationServer.Client" Version="16.153.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Fabric.MSBuild" Version="1.6.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.IoT.Edge.MSBuildTasks" Version="0.4.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Kubernetes.Tools.Targets" Version="1.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.Client" Version="16.153.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.ExtensionManagement.WebApi" Version="16.153.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.Gallery.WebApi" Version="16.153.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.InteractiveClient" Version="16.153.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.Notifications.WebApi" Version="16.153.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.NuGet.CredentialProvider" Version="0.37.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.Release.Client" Version="16.153.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.Search.Client" Version="16.153.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.ServiceHooks.WebApi" Version="16.153.0" />
+    <PackageReference Include="Microsoft.VisualStudio.SlowCheetah" Version="3.2.26">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.SnapshotDebugger.AzureAppServices.Standalone" Version="1.2.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Core" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Web.WebJobs.Publish" Version="2.0.0" />
+    <PackageReference Include="Microsoft.WindowsAzure.Caching" Version="2.9.5" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="4.7.0" />
+    <PackageReference Include="System.Diagnostics.TraceSource" Version="4.3.0" />
+    <PackageReference Include="YamlDotNet" Version="8.0.0" />
+  </ItemGroup>
+
 </Project>
